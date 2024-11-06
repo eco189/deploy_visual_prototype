@@ -1,0 +1,5 @@
+# Исключаем папку виртуального окружения visual_prototype
+visual_prototype/
+
+# Исключаем файл 1.ipynb
+1.ipynb
