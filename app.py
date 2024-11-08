@@ -16,7 +16,8 @@ import plotly.express as px
 # -----------------------------------------------------------------------------------------------------
 # Реализуем функции необходимые для работы приложения
 
-@st.cache_data  # st.cache устарел. Нужно st.cache_data или st.cache_resource
+@st.cache_data  # st.cache устарел. Нужно st.cache_data - для кэширования данных 
+                                    # или st.cache_resource - для кэширования объектов и более сложных ресурсов
 def read_files(folder_name='data'):
     """
     Функция для чтения файлов.
